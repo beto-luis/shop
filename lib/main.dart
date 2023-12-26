@@ -14,10 +14,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.deepPurple, secondary: Colors.deepOrange),
+        fontFamily: 'Lato',
         useMaterial3: true,
       ),
-      home: ProductsOverviewPage(),debugShowCheckedModeBanner: false,
+      home: ProductsOverviewPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

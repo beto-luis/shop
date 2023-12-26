@@ -12,7 +12,7 @@ class ProductsOverviewPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.blue,
+        backgroundColor: Theme.of(context).colorScheme.primary,
         title: const Text(
           'Minha Loja',
           style: TextStyle(color: Colors.white),
