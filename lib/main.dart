@@ -21,11 +21,10 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
-              seedColor: Colors.deepPurple, secondary: Colors.deepOrange),
+              seedColor: Colors.purple, secondary: Colors.deepOrange),
           fontFamily: 'Lato',
-          useMaterial3: true,
         ),
-        home: ProductsOverviewPage(),
+        home: const ProductsOverviewPage(),
         routes: {
           AppRoutes.productDetail: (ctx) => const ProductDetailPage(),
         },
