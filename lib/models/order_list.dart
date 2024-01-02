@@ -5,10 +5,10 @@ import 'package:shop/models/cart.dart';
 import 'package:shop/models/order.dart';
 
 class OrderList with ChangeNotifier {
-  List<Order> _items = [];
+  final List<Order> _items = [];
 
   List<Order> get items {
-    return [...items];
+    return [..._items];
   }
 
   int get itemsCount {

@@ -19,10 +19,10 @@ class OrdersPage extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       body: ListView.builder(
         itemCount: orders.itemsCount,
-        itemBuilder: (ctx, i) => OrderWidget(order : orders.items[i]),
+        itemBuilder: (ctx, i) => OrderWidget(order: orders.items[i]),
       ),
     );
   }
