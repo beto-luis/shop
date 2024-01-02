@@ -19,6 +19,19 @@ class _ProductFormPageState extends State<ProductFormPage> {
           style: TextStyle(color: Colors.white),
         ),
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Form(
+          child: ListView(
+            children: [
+              TextFormField(
+                decoration: InputDecoration(labelText: 'Nome'),
+                textInputAction: TextInputAction.next,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
