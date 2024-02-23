@@ -13,9 +13,9 @@ class _ProductFormPageState extends State<ProductFormPage> {
   final _priceFocus = FocusNode();
   final _descriptionFocus = FocusNode();
   final _imageUrlFocus = FocusNode();
-  final _imageUrlController = TextEditingController();
+  final _imageUrlController = TextEditingController(); 
   final _formKey = GlobalKey<FormState>();
-  final _formData = Map<String, Object>();
+  final _formData = Map<String, Object>(); 
 
   @override
   void initState() {
